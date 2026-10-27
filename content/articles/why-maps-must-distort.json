@@ -1,0 +1,59 @@
+{
+  "slug": "why-maps-must-distort",
+  "title": "Why maps must distort",
+  "dek": "A globe is honest in three dimensions. A page has two. Every useful map is a negotiated lie.",
+  "category": "geography",
+  "readingMinutes": 5,
+  "published": "2026-03-14",
+  "related": [
+    "cities-that-refused-to-end",
+    "the-year-the-sun-went-dim",
+    "rumours-that-moved-armies"
+  ],
+  "speakingPrompts": [
+    "Hold up an imaginary world map and explain what it is sacrificing: shape, area, distance, or direction.",
+    "Why might a school atlas that enlarges Europe change someone’s politics without anyone noticing?",
+    "Design a map of your town that is honest about walking time instead of metres."
+  ],
+  "blocks": [
+    {
+      "type": "p",
+      "text": "You cannot peel an orange and press the skin into a rectangle without tearing it. That is the mapmaker’s problem, stated as fruit. The Earth is not a plane. Any flat chart must choose which truth to wound: area, shape, distance, or direction. The Mercator projection keeps compass bearings straight — a gift to navigation — and inflates land near the poles. Greenland becomes a giant. Africa looks modest. The distortion is mathematical, then cultural."
+    },
+    {
+      "type": "h2",
+      "text": "Projections are arguments"
+    },
+    {
+      "type": "p",
+      "text": "Equal-area projections such as Gall–Peters restore relative size and look “wrong” to eyes trained on Mercator. Neither is the real Earth. Both are tools. The scandal is not that maps simplify. It is that one simplification can pass as default, then quietly tutor a sense of which countries are central, vast, or peripheral. Mark Monmonier’s line still earns its keep: a map that did not lie a little would be useless, and a map that lies without being questioned becomes a weapon."
+    },
+    {
+      "type": "p",
+      "text": "Scale is another kind of argument. A tourist map enlarges the old town and forgets the depot. A military chart does the reverse. Even the choice of north-up is a convention, not a law of physics. Turn a familiar city map upside down and watch yourself get lost in a place you know. Orientation is a habit wearing the mask of nature."
+    },
+    {
+      "type": "callout",
+      "title": "How to read a map like a critic",
+      "text": "Ask four questions: What is in the centre? What is enlarged? What is missing? Who paid for this view? Those questions work on subway diagrams, election maps, and climate graphics alike."
+    },
+    {
+      "type": "h2",
+      "text": "Living with useful lies"
+    },
+    {
+      "type": "p",
+      "text": "Curio is not asking you to abandon maps. It is asking you to notice the bargain. When a chart makes a comparison easy, something else got harder. The skill is to keep a globe — or at least a second projection — in mind, the way a careful reader keeps a second source."
+    }
+  ],
+  "references": [
+    {
+      "title": "How to Lie with Maps",
+      "source": "Monmonier, M. (2018). University of Chicago Press, 3rd ed."
+    },
+    {
+      "title": "Flattening the Earth: Two Thousand Years of Map Projections",
+      "source": "Snyder, J. P. (1993). University of Chicago Press."
+    }
+  ]
+}

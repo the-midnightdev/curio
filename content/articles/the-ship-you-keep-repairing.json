@@ -1,0 +1,59 @@
+{
+  "slug": "the-ship-you-keep-repairing",
+  "title": "The ship you keep repairing",
+  "dek": "If every plank is replaced, is it still the same ship — and are you still the same person who started the week?",
+  "category": "philosophy",
+  "readingMinutes": 5,
+  "published": "2026-07-03",
+  "related": [
+    "what-a-thought-experiment-is-for",
+    "why-do-we-remember-things-that-never-happened",
+    "cities-that-refused-to-end"
+  ],
+  "speakingPrompts": [
+    "Explain the Ship of Theseus to someone using a house, a band, or a football club instead of a ship.",
+    "Are you the same person you were at sixteen? Give your answer in two minutes without hiding in poetry.",
+    "If a company replaces every founder, office, and product, what, if anything, still deserves the original name?"
+  ],
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Plutarch tells of the ship of Theseus, maintained by the Athenians: planks rot, planks are swapped, and a question appears that will not rot with them. If no original timber remains, is it the same ship? Thomas Hobbes later added a second vessel built from the discarded planks. Now there are two candidates for identity. Our intuitions split, which is the point."
+    },
+    {
+      "type": "h2",
+      "text": "Continuity versus stuff"
+    },
+    {
+      "type": "p",
+      "text": "One family of answers cares about continuity of form and function: it is the same ship if it has been one maintained object, even if its matter changed. Another cares about material: identity tracks the wood. A third treats the puzzle as a reminder that “same” is a word with jobs. We use it for legal ownership, for sentimental attachment, for physical composition, and those jobs do not always vote together."
+    },
+    {
+      "type": "p",
+      "text": "You already live inside a version of this. Cells turn over. Preferences migrate. The name on your documents stays. Memory claims to be the keel — except memory, as Curio’s psychology shelf argues, is itself repaired and sometimes invented. If identity requires an unbroken inner recording, we are all in trouble. If it requires a practical, socially recognised continuity, we are mostly fine, and the puzzle becomes a tool for noticing which kind of sameness we are asking for."
+    },
+    {
+      "type": "quote",
+      "text": "We are not statues. We are maintenance.",
+      "cite": "A working line, not a quotation from Plutarch"
+    },
+    {
+      "type": "h2",
+      "text": "What to do with the splinter"
+    },
+    {
+      "type": "p",
+      "text": "Thought experiments earn their keep when they change a decision. If you are restoring a building, do you owe more to the façade or the use? If a band keeps the name after every original member has left, who is being misled? If you have changed, which promises still bind you? The ship does not need a single metaphysical verdict to be useful. It needs you to say, in each case, which sense of “same” you are willing to defend out loud."
+    }
+  ],
+  "references": [
+    {
+      "title": "Life of Theseus",
+      "source": "Plutarch. In Parallel Lives (various editions)."
+    },
+    {
+      "title": "De Corpore",
+      "source": "Hobbes, T. (1655). On identity and the ship rebuilt from old planks."
+    }
+  ]
+}

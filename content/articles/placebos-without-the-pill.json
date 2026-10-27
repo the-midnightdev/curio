@@ -1,0 +1,60 @@
+{
+  "slug": "placebos-without-the-pill",
+  "title": "Placebos without the pill",
+  "dek": "Expectation is a biological event. Ritual, meaning, and the story around care can move real physiology.",
+  "category": "science",
+  "readingMinutes": 5,
+  "published": "2026-04-22",
+  "related": [
+    "why-do-we-remember-things-that-never-happened",
+    "why-rituals-still-work",
+    "what-a-thought-experiment-is-for"
+  ],
+  "speakingPrompts": [
+    "Explain a placebo as something the nervous system does, not as a fake medicine.",
+    "Should doctors ever use placebos openly? Argue both sides in two minutes.",
+    "Describe a ritual in your own care — tea, a walk, a playlist — that changes how a symptom feels."
+  ],
+  "blocks": [
+    {
+      "type": "p",
+      "text": "“Placebo” is often used as an insult: nothing happened except belief. That sentence misunderstands both belief and bodies. In pain, Parkinson’s disease, and some autonomic responses, the expectation of relief can recruit opioid and dopamine systems. Something happens. It is not a miracle and it is not a trick unique to sugar tablets. It is the physiology of meaning."
+    },
+    {
+      "type": "h2",
+      "text": "The ritual is part of the dose"
+    },
+    {
+      "type": "p",
+      "text": "A white coat, a confident explanation, a device that looks expensive: these are not decorations. Studies have shown that placebo injections can outpace placebo pills, and that branding and colour can shift reported effect. Open-label placebos — pills honestly described as inert — have still helped some people with irritable bowel symptoms in clinical trials. The story is not “lying works.” The story is that a structured act of care can become a cue the nervous system recognises."
+    },
+    {
+      "type": "p",
+      "text": "There is a dark twin: nocebo. Expectation of harm can increase side effects and pain. Language in a consulting room is therefore not a soft skill bolted onto medicine. It is part of the intervention. So is the opposite of care: dismissal can teach a body to brace."
+    },
+    {
+      "type": "callout",
+      "title": "Limits",
+      "text": "Placebo responses do not replace antibiotics for a bacterial infection or insulin for type 1 diabetes. They modulate symptoms and some measurable pathways more than they invent missing molecules. Precision matters: overselling placebo as a cure-all is how a useful finding becomes folklore."
+    },
+    {
+      "type": "h2",
+      "text": "A daily translation"
+    },
+    {
+      "type": "p",
+      "text": "You already run placebo-like loops. A pre-performance routine steadies the hands. A trusted teacher makes a hard problem feel solvable, which changes how long you stay with it. None of that is an argument against evidence. It is an argument for taking context seriously — including the context you build for yourself when no clinician is in the room."
+    }
+  ],
+  "references": [
+    {
+      "title": "Placebo effects: From the neurobiological paradigm to translational implications",
+      "source": "Benedetti, F. (2014). Neuron."
+    },
+    {
+      "title": "Placebos without deception: A randomized controlled trial in irritable bowel syndrome",
+      "source": "Kaptchuk, T. J., et al. (2010). PLOS ONE.",
+      "url": "https://doi.org/10.1371/journal.pone.0015591"
+    }
+  ]
+}

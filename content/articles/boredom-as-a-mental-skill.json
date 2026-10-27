@@ -1,0 +1,64 @@
+{
+  "slug": "boredom-as-a-mental-skill",
+  "title": "Boredom as a mental skill",
+  "dek": "An empty stretch of time is not a software error. It is a signal — and sometimes a workshop.",
+  "category": "psychology",
+  "readingMinutes": 5,
+  "published": "2026-08-20",
+  "related": [
+    "why-time-seems-to-accelerate",
+    "the-spotlight-that-isnt-on-you",
+    "what-a-thought-experiment-is-for"
+  ],
+  "speakingPrompts": [
+    "Argue for two minutes that boredom is information, not a character flaw.",
+    "Describe the last time you reached for a phone to escape a pause. What were you protecting yourself from?",
+    "How would a classroom change if boredom were treated as a skill to train rather than a failure of entertainment?"
+  ],
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Boredom has a bad reputation because it feels like a stalled engine. The seconds thicken. The room offers nothing. In that moment the modern reflex is to import a feed. Psychologists who study the state describe something less insulting: a mismatch between what you want to attend to and what is available. The feeling is a push, not a verdict."
+    },
+    {
+      "type": "h2",
+      "text": "Two kinds of empty"
+    },
+    {
+      "type": "p",
+      "text": "Researchers distinguish a restless, searching boredom from a more apathetic collapse. The first is closer to hunger. It says: this task no longer pays in meaning, novelty, or progress. The second is closer to dimming. Both can be informative. Hunger asks for a better problem. Dimming asks whether you are exhausted, trapped, or under-stimulated for too long."
+    },
+    {
+      "type": "p",
+      "text": "In experiments, people will sometimes choose mild electric shocks rather than sit alone with their thoughts. That result is usually told as a joke about humans. It is also a clue: unstructured inner time can surface material we have been buffering — unfinished conversations, status worries, the next undone thing. The phone is not only entertainment. It is a lid."
+    },
+    {
+      "type": "callout",
+      "title": "A five-minute practice",
+      "text": "When boredom arrives, name the flavour before you reach. Restless? Apathetic? Then choose on purpose: a harder problem, a walk, or a timed two minutes of staying. The skill is not asceticism. It is refusing to let the first twitch make the decision."
+    },
+    {
+      "type": "h2",
+      "text": "Why it belongs in a curious life"
+    },
+    {
+      "type": "p",
+      "text": "Curiosity needs slack. If every interval is filled, the mind never has to generate its own next question. Many of the associations that later look like insight are the sort of thing boredom was trying to make room for. That does not romanticise dull work or ignore the boredom of poverty and waiting rooms. It says that in the portions of life where you do have choice, the empty minute is a tool."
+    },
+    {
+      "type": "p",
+      "text": "Treat it like hunger. You would not praise starving, and you would not graze without noticing. The skill is to feel the signal, then decide whether to feed it, wait, or change the room."
+    }
+  ],
+  "references": [
+    {
+      "title": "Does boredom affect brain activity?",
+      "source": "Danckert, J., & Merrifield, C. (2018). Experimental Brain Research."
+    },
+    {
+      "title": "Just think: The challenges of the disengaged mind",
+      "source": "Wilson, T. D., et al. (2014). Science.",
+      "url": "https://doi.org/10.1126/science.1250830"
+    }
+  ]
+}

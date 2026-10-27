@@ -1,0 +1,59 @@
+{
+  "slug": "what-a-thought-experiment-is-for",
+  "title": "What a thought experiment is for",
+  "dek": "A good thought experiment is not a story that wins. It is a device that makes a hidden assumption visible.",
+  "category": "philosophy",
+  "readingMinutes": 5,
+  "published": "2026-06-18",
+  "related": [
+    "the-ship-you-keep-repairing",
+    "why-do-we-remember-things-that-never-happened",
+    "placebos-without-the-pill"
+  ],
+  "speakingPrompts": [
+    "Invent a thought experiment in one minute about fairness at a dinner table.",
+    "When should we refuse a thought experiment because it is too far from life?",
+    "Explain the difference between a parable and a thought experiment without using the word philosophy."
+  ],
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Philosophy is often accused of preferring armchairs to evidence. The better charge is more specific: some imaginary cases are so polished they smuggle the conclusion in with the furniture. A thought experiment, used honestly, does the opposite. It isolates one lever — consent, identity, knowledge, harm — and asks what happens if we push it."
+    },
+    {
+      "type": "h2",
+      "text": "A laboratory made of sentences"
+    },
+    {
+      "type": "p",
+      "text": "Galileo’s falling bodies, Maxwell’s demon, and Judith Jarvis Thomson’s violinist are not novels. They are compressed tests. They say: if you accept A in this stark case, you may already be committed to A in a messier one. The starkness is the method. Strip away the details that usually let us dodge. See whether the principle still looks like something you would sign."
+    },
+    {
+      "type": "p",
+      "text": "The method fails when the starkness cheats. If a scenario depends on science fiction that changes the meaning of the words (what is a “person” if minds upload?), you may be playing with definitions rather than testing a conviction. If it depends on a single vivid image, you may be measuring disgust or tenderness, not justice. Good practice is to rerun the case with the emotional colours inverted and see whether your answer moves."
+    },
+    {
+      "type": "callout",
+      "title": "A field test",
+      "text": "Write the principle you think you hold in one sentence. Then invent a case that makes that sentence expensive. If you immediately add clauses, you have learned where the principle was incomplete. That is success, not backtracking."
+    },
+    {
+      "type": "h2",
+      "text": "Why Curio keeps them on the shelf"
+    },
+    {
+      "type": "p",
+      "text": "Microlearning is not only facts. It is the chance to notice the joints in your own thinking. A five-minute thought experiment will not settle ethics. It can stop you from using a slogan as if it were a complete tool. Take it with you into the speaking prompts: the point is not to win. The point is to hear which assumption you were standing on."
+    }
+  ],
+  "references": [
+    {
+      "title": "A defense of abortion",
+      "source": "Thomson, J. J. (1971). Philosophy & Public Affairs."
+    },
+    {
+      "title": "Thought experiments",
+      "source": "Brown, J. R., & Fehige, Y. Stanford Encyclopedia of Philosophy."
+    }
+  ]
+}

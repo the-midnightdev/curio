@@ -1,0 +1,59 @@
+{
+  "slug": "rumours-that-moved-armies",
+  "title": "Rumours that moved armies",
+  "dek": "Before a fact can travel, a story often already has. Some campaigns have been steered by what people were sure they had heard.",
+  "category": "history",
+  "readingMinutes": 5,
+  "published": "2025-12-11",
+  "related": [
+    "why-do-we-remember-things-that-never-happened",
+    "the-year-the-sun-went-dim",
+    "the-speed-of-belonging"
+  ],
+  "speakingPrompts": [
+    "Retell a historical panic in two minutes, then name the missing verification step.",
+    "How is a wartime rumour different from a false memory — and how are they cousins?",
+    "What rule would you give a newsroom during the first hour of an unfolding event?"
+  ],
+  "blocks": [
+    {
+      "type": "p",
+      "text": "History is full of dispatches that were wrong on purpose, and a more interesting set that were wrong by accident and still did work. A rumour is a social memory in draft form: vivid, poorly sourced, easy to repeat. Armies have marched toward ghosts. Crowds have emptied cities. Markets have crashed on a sentence that never had an owner."
+    },
+    {
+      "type": "h2",
+      "text": "Speed beats footnotes"
+    },
+    {
+      "type": "p",
+      "text": "In crises, verification is expensive and delay can be fatal. That incentive structure is older than the internet. During the French Revolution, the Great Fear of 1789 spread as a chain of alarms about brigands and aristocratic plots. Some local threats were real; the nationwide pattern was a contagion of expectation. People acted on what their neighbours believed, which made the belief locally true enough to matter: they armed, they burned, they waited."
+    },
+    {
+      "type": "p",
+      "text": "The psychology shelf of Curio is not a detour here. Source monitoring fails in groups too. A story with a face and a direction of threat outruns a cautious “we do not yet know.” Leaders know this and sometimes plant rumours. More often they are captured by them, forced to respond to a public that has already written the first paragraph."
+    },
+    {
+      "type": "callout",
+      "title": "A historian’s hygiene",
+      "text": "When a secondary source says “news spread that…”, ask: along which roads, in whose accent, with what incentive to exaggerate? Rumour has a geography. Mapping it is often more revealing than judging it."
+    },
+    {
+      "type": "h2",
+      "text": "The modern rhyme"
+    },
+    {
+      "type": "p",
+      "text": "We still move resources toward stories that feel finished. The discipline is not cynicism. It is slowing the conversion of a vivid report into a march. Five minutes of asking “who saw it, who benefits, what would falsify it?” is an unglamorous civic skill. History’s rumours are a museum of what happens when that minute is skipped."
+    }
+  ],
+  "references": [
+    {
+      "title": "The Great Fear of 1789: Rural Panic in Revolutionary France",
+      "source": "Lefebvre, G. (1973 English ed.). Princeton University Press."
+    },
+    {
+      "title": "Rumors in a Time of War",
+      "source": "A literature spanning WWII OSS studies through modern disaster sociology; see Allport & Postman, The Psychology of Rumor (1947)."
+    }
+  ]
+}

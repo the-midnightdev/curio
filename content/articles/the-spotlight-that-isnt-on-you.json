@@ -1,0 +1,60 @@
+{
+  "slug": "the-spotlight-that-isnt-on-you",
+  "title": "The spotlight that isn’t on you",
+  "dek": "We overestimate how closely other people track our stumbles. The audience is mostly busy being an audience in their own play.",
+  "category": "psychology",
+  "readingMinutes": 5,
+  "published": "2026-09-12",
+  "related": [
+    "why-do-we-remember-things-that-never-happened",
+    "the-speed-of-belonging",
+    "boredom-as-a-mental-skill"
+  ],
+  "speakingPrompts": [
+    "Describe a moment you were sure everyone noticed a mistake. What evidence did you actually have?",
+    "Give a two-minute talk arguing that self-consciousness is a budgeting error, not a moral failing.",
+    "How would you coach a colleague who refuses to present because they imagine a jury in the room?"
+  ],
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Walk into a room with a stain on your sleeve and the stain becomes a planet. You can feel the orbits of other people’s attention. Later, if you ask, many of them never saw it. The gap between those two facts is one of social psychology’s most durable findings: the spotlight effect."
+    },
+    {
+      "type": "p",
+      "text": "In a well-known set of studies, Thomas Gilovich and colleagues asked students to put on an embarrassing T-shirt and then estimate how many peers would later be able to name the shirt. The wearers overshot. Observers were kinder, or more distracted, than the inner cinema suggested. The mind treats the self as the obvious subject of every scene. Other minds are doing the same trick from a different chair."
+    },
+    {
+      "type": "h2",
+      "text": "Anchored to our own view"
+    },
+    {
+      "type": "p",
+      "text": "The mechanism is not vanity so much as anchoring. You have high-resolution data about your own appearance, your own voice, the sentence you wish you had not said. You have low-resolution data about anyone else’s attention. When estimates are required, the rich data set wins. You adjust a little for “they might not care,” but not enough. The leftover is a private stage light."
+    },
+    {
+      "type": "callout",
+      "title": "A useful correction",
+      "text": "The finding does not say nobody notices you. It says notice is scarce, divided, and quickly overwritten. If you need people to register something — a credit, a boundary, a joke — you may have to say it twice. If you need them not to catalogue a wobble, you already have more privacy than it feels."
+    },
+    {
+      "type": "h2",
+      "text": "Why the feeling persists"
+    },
+    {
+      "type": "p",
+      "text": "Evolution did not design you to be statistically calibrated in a canteen. It designed you to track status, affiliation, and threat. Being watched can be dangerous or decisive; the false alarm of “they all saw that” is cheaper than missing a real audience. In modern rooms the alarm still fires, now attached to presentations, photos, and the aftertaste of a meeting."
+    },
+    {
+      "type": "p",
+      "text": "There is a gentler implication for public speaking. The room is not a tribunal. Most listeners are managing their own spotlights: Did I nod at the right time? Is my question foolish? That shared self-absorption is, oddly, a form of camouflage. You can use it. Prepare the idea, not the imaginary jury. The stain on the sleeve rarely gets a second scene."
+    }
+  ],
+  "references": [
+    {
+      "title": "The spotlight effect in social judgment: An egocentric bias in estimates of the salience of one's own actions and appearance",
+      "source": "Gilovich, T., Medvec, V. H., & Savitsky, K. (2000). Journal of Personality and Social Psychology.",
+      "url": "https://doi.org/10.1037/0022-3514.78.2.211"
+    }
+  ]
+}

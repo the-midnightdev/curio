@@ -1,0 +1,54 @@
+{
+  "slug": "cities-that-refused-to-end",
+  "title": "Cities that refused to end",
+  "dek": "Some urban lives are measured in centuries of repair. Continuity is a civic technology, not a mood.",
+  "category": "geography",
+  "readingMinutes": 5,
+  "published": "2026-02-27",
+  "related": [
+    "the-ship-you-keep-repairing",
+    "why-maps-must-distort",
+    "why-rituals-still-work"
+  ],
+  "speakingPrompts": [
+    "Pick a city older than the country you live in and explain how it survived a disaster that should have ended it.",
+    "Is a rebuilt city the same city? Borrow the Ship of Theseus without naming it until the last sentence.",
+    "What should a town refuse to demolish if it wants to remain itself?"
+  ],
+  "blocks": [
+    {
+      "type": "p",
+      "text": "A city is a habit of people staying. Stones help, rivers help, but the stubborn fact is institutional: markets reopen, names persist, someone still knows where the well was. Damascus, Athens, Varanasi, Luoyang — lists of “oldest cities” quarrel because archaeology, continuous habitation, and political identity do not share a single clock. The quarrel is useful. It shows that “still here” can mean different kinds of survival."
+    },
+    {
+      "type": "h2",
+      "text": "What actually persists"
+    },
+    {
+      "type": "p",
+      "text": "After earthquake, fire, or conquest, a city may keep its street grain even when façades are new. It may keep a pilgrimage even when the skyline changes. It may keep a legal status, a harbour, a shrine. Geographers talk about path dependence: early choices — a ford, a temple, a rail gauge — constrain later ones. That is why old cities feel layered rather than sequential. You walk through decisions that outlived their makers."
+    },
+    {
+      "type": "p",
+      "text": "There is nothing automatically virtuous about age. Some longevity is the longevity of extractive ports or contested capitals. The intellectual interest is the mechanism: how a place metabolises shock. Water systems, grain storage, religious calendars, and diasporas that send money home are as much infrastructure as bridges. A city that “refused to end” usually had more than nostalgia. It had a reason to be rebuilt in the same spot."
+    },
+    {
+      "type": "h2",
+      "text": "A question for newer places"
+    },
+    {
+      "type": "p",
+      "text": "If you live in a young suburb, the lesson is not to fake ruins. It is to ask what would still gather people if the mall closed: a school, a creek, a weekly market, a room that is free to enter. Continuity is easier to start than to retrofit. The oldest cities are not merely ancient. They are places that kept offering a next morning."
+    }
+  ],
+  "references": [
+    {
+      "title": "The City in History",
+      "source": "Mumford, L. (1961). Harcourt."
+    },
+    {
+      "title": "Cities and the Wealth of Nations",
+      "source": "Jacobs, J. (1984). Random House. (On cities as ongoing economic organisms.)"
+    }
+  ]
+}

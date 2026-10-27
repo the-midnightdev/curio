@@ -1,0 +1,143 @@
+{
+  "slug": "why-do-we-remember-things-that-never-happened",
+  "title": "Why do we remember things that never happened?",
+  "dek": "Memory is not a recording. It is a reconstruction — and reconstructions can be fluent, vivid, and wrong.",
+  "category": "psychology",
+  "readingMinutes": 5,
+  "published": "2026-10-01",
+  "related": [
+    "the-spotlight-that-isnt-on-you",
+    "placebos-without-the-pill",
+    "rumours-that-moved-armies"
+  ],
+  "speakingPrompts": [
+    "Tell a two-minute story about a childhood memory you later discovered was partly borrowed from a photograph or a family story. What still feels true?",
+    "Explain the DRM word experiment to a friend who has never heard of it, using only everyday language and one example.",
+    "If a confident eyewitness and a quiet documentary record disagree, how would you decide which to trust — and what would you still refuse to claim?",
+    "Describe a time you “remembered” sending a message, locking a door, or saying something, then found you had not. What did the false version feel like in the body?"
+  ],
+  "blocks": [
+    {
+      "type": "p",
+      "text": "A memory can arrive with the texture of weather: the colour of a kitchen, the pitch of a voice, the certainty that you were there. That certainty is a feeling, not a certificate. Over the last fifty years, psychology has shown that people can remember events that were suggested to them, inferred by them, or merely implied by a pattern of words — and they can do so without lying and without intending to invent."
+    },
+    {
+      "type": "p",
+      "text": "This is not a party trick about forgetfulness. It is a feature of a system built to be useful. The mind compresses, fills gaps, and prefers a coherent story to a hole in the story. Coherence is efficient. It is also how a never-happened moment gets a seat at the table."
+    },
+    {
+      "type": "h2",
+      "text": "A small experiment you can run on yourself"
+    },
+    {
+      "type": "p",
+      "text": "Before the explanation, try a classic laboratory idea at reading speed. You will see a short list of ordinary words, one at a time. Read them once, without writing anything down. Afterward you will be asked which words were on the list. There is no score to post and no microphone. The interesting result, if it happens, is private."
+    },
+    {
+      "type": "experiment",
+      "id": "false-memory"
+    },
+    {
+      "type": "h2",
+      "text": "What the word list is doing"
+    },
+    {
+      "type": "p",
+      "text": "The procedure you just met is a cousin of the Deese–Roediger–McDermott paradigm, usually abbreviated DRM. In 1959, James Deese noticed that people sometimes “recalled” a word that had never been shown, so long as the list was packed with its close associates. In 1995, Henry Roediger and Kathleen McDermott rebuilt the method and showed how reliable the illusion can be: after studying lists like bed, rest, awake, tired, dream, people often later remember sleep with striking confidence."
+    },
+    {
+      "type": "p",
+      "text": "Sleep is the critical lure. It is the unstated theme. During study, your semantic networks light up the theme automatically. At test, the feeling of familiarity is real — the concept was activated — but the source of that familiarity is misattributed to “I saw it on the list.” The error is not a failure of intelligence. It is a successful inference wearing the costume of recollection."
+    },
+    {
+      "type": "quote",
+      "text": "Memory is a sketch, not a photograph — and sketches include the artist’s habits.",
+      "cite": "A working metaphor used across source-monitoring research"
+    },
+    {
+      "type": "h2",
+      "text": "Suggestion, not only association"
+    },
+    {
+      "type": "p",
+      "text": "Word lists reveal how meaning leaks into memory. Other studies show how other people can leak in too. Elizabeth Loftus and colleagues demonstrated the misinformation effect: after watching an event, a misleading verb or a planted detail in a later question can alter what people later report seeing. In a famous line of work, some adults came to describe a childhood episode of being lost in a shopping mall that family members said had never occurred. Not everyone formed the memory. Among those who did, the scene could acquire sensory trim — weather, fear, a kind stranger — the furniture of an episode."
+    },
+    {
+      "type": "p",
+      "text": "Imagination inflation is a quieter relative of the same process. Simply picturing an action, repeatedly, can later make that action feel more like a lived memory. The brain is not being theatrical. It is reusing overlapping machinery for seeing, imagining, and remembering. When the tags that say “this was imagined” fade faster than the content, the leftover is a feeling of having been there."
+    },
+    {
+      "type": "callout",
+      "title": "Source monitoring",
+      "text": "Marcia Johnson’s source-monitoring framework treats the problem as one of attribution: we decide whether a trace came from perception, inference, a dream, or someone else’s story. Those decisions use cues (sensory detail, plausibility, supporting knowledge) that are usually good and occasionally disastrous. A false memory is often a confident answer to the wrong question: not “is this familiar?” but “where did this come from?”"
+    },
+    {
+      "type": "h2",
+      "text": "Why the brain would ever allow this"
+    },
+    {
+      "type": "p",
+      "text": "A perfectly literal memory would be a terrible product. You do not need a high-fidelity recording of every corridor you have walked; you need a usable model of buildings, people, and risk. Fuzzy-trace theory, associated with Charles Brainerd and Valerie Reyna, distinguishes verbatim traces (the exact words) from gist traces (the meaning). Gist is durable and helpful. It is also the doorway through which a lure like sleep enters. You remember that the list was about rest. Rest’s best label is sleep."
+    },
+    {
+      "type": "p",
+      "text": "The same reconstructive habit serves conversation, planning, and learning. It lets you finish a sentence you only half heard. It lets you recognise a friend from a new angle. The cost is that confidence and accuracy can part company. People are often most sure of memories that have been told, polished, and fitted into a life story — which is to say, memories that have been edited."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Association: related ideas activate together, so an unstated theme can feel as if it were present.",
+        "Suggestion: later language, photos, or leading questions can be woven into the original episode.",
+        "Imagination: repeatedly simulating an event can later be mistaken for having lived it.",
+        "Social rehearsal: family stories and group retellings can become first-person scenes."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "What this is not"
+    },
+    {
+      "type": "p",
+      "text": "None of this means every disputed memory is false, or that trauma is a parlour illusion. The research is more precise and more uncomfortable: some false memories are rich; some true memories are fragmentary; confidence is a weak referee. Courts, clinics, and families all meet this mess. The scientific contribution is not a verdict on any one person’s past. It is a map of the mechanisms that make “I remember” a claim that still deserves questions."
+    },
+    {
+      "type": "p",
+      "text": "If the lure word caught you, you have a useful souvenir. You did not fail a test. You watched your semantic memory do its job a little too well, then watched your source memory arrive late to the scene. That lag is one reason the past feels solid — and why a careful mind still checks the furniture."
+    }
+  ],
+  "references": [
+    {
+      "title": "On the prediction of occurrence of particular verbal intrusions in immediate recall",
+      "source": "Deese, J. (1959). Journal of Experimental Psychology.",
+      "url": "https://doi.org/10.1037/h0046671"
+    },
+    {
+      "title": "Creating false memories: Remembering words not presented in lists",
+      "source": "Roediger, H. L., & McDermott, K. B. (1995). Journal of Experimental Psychology: Learning, Memory, and Cognition.",
+      "url": "https://doi.org/10.1037/0278-7393.21.4.803"
+    },
+    {
+      "title": "Reconstruction of automobile destruction: An example of the interaction between language and memory",
+      "source": "Loftus, E. F., & Palmer, J. C. (1974). Journal of Verbal Learning and Verbal Behavior.",
+      "url": "https://doi.org/10.1016/S0022-5371(74)80011-3"
+    },
+    {
+      "title": "The formation of false memories",
+      "source": "Loftus, E. F., & Pickrell, J. E. (1995). Psychiatric Annals."
+    },
+    {
+      "title": "Source monitoring",
+      "source": "Johnson, M. K., Hashtroudi, S., & Lindsay, D. S. (1993). Psychological Bulletin.",
+      "url": "https://doi.org/10.1037/0033-2909.114.1.3"
+    },
+    {
+      "title": "Fuzzy-trace theory and false memory",
+      "source": "Reyna, V. F., & Brainerd, C. J. (1995). Learning and Individual Differences."
+    },
+    {
+      "title": "Imagination inflation: Imagining a childhood event inflates confidence that it occurred",
+      "source": "Garry, M., Manning, C. G., Loftus, E. F., & Sherman, S. J. (1996). Psychonomic Bulletin & Review.",
+      "url": "https://doi.org/10.3758/BF03210716"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "why-rituals-still-work",
+  "title": "Why rituals still work",
+  "dek": "Repeating an act with other people is an old technology for nervous systems that have to live in groups.",
+  "category": "society",
+  "readingMinutes": 5,
+  "published": "2025-10-08",
+  "related": [
+    "the-speed-of-belonging",
+    "placebos-without-the-pill",
+    "cities-that-refused-to-end"
+  ],
+  "speakingPrompts": [
+    "Describe a ritual that is not religious — a kick-off meeting, a birthday, a team chant — and say what it actually does.",
+    "Can a ritual be honest if nobody believes the story that came with it?",
+    "Invent a one-minute ritual for a group that has lost trust."
+  ],
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Light the same candle, stand at the same hour, use the same words. From the outside it can look like theatre without a plot. From the inside it often feels like the room has been set down on something solid. Anthropologists and psychologists have spent a century trying to say why. One durable answer: ritual is a way to coordinate bodies and expectations when language alone is too thin."
+    },
+    {
+      "type": "h2",
+      "text": "What repetition buys"
+    },
+    {
+      "type": "p",
+      "text": "Shared rhythm — singing, marching, even breathing together — can blur the edge between self and group. That is not mysticism as much as attention and arousal moving in time. Costly or effortful rituals can also signal commitment: if you showed up at dawn, you are less likely to be a tourist in the coalition. And the script itself reduces social improvisation. You do not have to invent how to grieve, celebrate, or start the season. The path is already worn."
+    },
+    {
+      "type": "p",
+      "text": "There is a cousin in the placebo research: meaning and structured care change experience. A ritual around illness, study, or apology is not “just symbolic” if the nervous system takes symbols as cues. The danger is the same as with any technology. Rituals can comfort, and they can enforce. A roll-call can be welcome. It can also be a tool for spotting who failed to perform belonging."
+    },
+    {
+      "type": "callout",
+      "title": "Secular, still ritual",
+      "text": "Stadiums, courtrooms, and daily stand-ups are ritual machines. If you only reserve the word for incense, you will miss the ones already running your week."
+    },
+    {
+      "type": "h2",
+      "text": "Using the tool on purpose"
+    },
+    {
+      "type": "p",
+      "text": "If you lead anything — a table, a team, a classroom — you are already choosing rituals, including the ritual of having none (which usually means the loudest person writes the script). Design the opening, the closing, and the way you mark a loss. Keep it brief enough to repeat. The point is not to be ancient. The point is to give a group a shared nervous system for the next hard hour."
+    }
+  ],
+  "references": [
+    {
+      "title": "Ritual, emotion, and sacred symbols: The evolution of religion as an adaptive complex",
+      "source": "Alcorta, C. S., & Sosis, R. (2005). Human Nature."
+    },
+    {
+      "title": "The Ritual Animal",
+      "source": "Whitehouse, H. (2021). Oxford University Press."
+    }
+  ]
+}

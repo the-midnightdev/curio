@@ -1,0 +1,59 @@
+{
+  "slug": "why-time-seems-to-accelerate",
+  "title": "Why time seems to accelerate",
+  "dek": "Childhood summers were long because they were dense with firsts. Routine is a compression algorithm.",
+  "category": "science",
+  "readingMinutes": 5,
+  "published": "2026-05-09",
+  "related": [
+    "boredom-as-a-mental-skill",
+    "why-do-we-remember-things-that-never-happened",
+    "the-year-the-sun-went-dim"
+  ],
+  "speakingPrompts": [
+    "Describe a week that felt long and a year that vanished. What was different about the density of events?",
+    "If novelty slows remembered time, what is one first you could schedule this month without turning life into a stunt?",
+    "Explain to a teenager why their holidays feel longer than yours without sounding wistful."
+  ],
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Ask an adult about last autumn and you may get a shrug. Ask them about the autumn they were nine and you may get a landscape. The clocks did not change their manners. The mind’s way of storing intervals did. Several lines of research converge on a blunt idea: time in memory is partly a count of new things."
+    },
+    {
+      "type": "h2",
+      "text": "Prospective versus retrospective"
+    },
+    {
+      "type": "p",
+      "text": "When you are bored in a queue, time crawls as you watch it. That is prospective time: attention is on duration itself, so seconds are sampled densely. When you look back on a packed year of the same commute, time has thinned. That is retrospective time: the mind infers duration from how much happened, how many distinct episodes can be retrieved. Routine leaves fewer markers. The film is shorter because the editor had less to cut."
+    },
+    {
+      "type": "p",
+      "text": "Childhood is rich in firsts — first classroom, first betrayal, first map of a town. Adulthood, for many, is a masterpiece of repetition. The proportional theory (a year is a smaller fraction of life at forty than at four) is a popular story and a weaker explanation on its own. You can make a year feel longer at forty by filling it with unmarked days that become marked: a new route, a new skill, a trip that does not resemble last year’s trip."
+    },
+    {
+      "type": "callout",
+      "title": "A scientific caution",
+      "text": "Lab studies of duration are not the same as a life story. They do show that attention, emotion, and memory encoding alter estimates. Treat the “busy years fly” remark as a clue about encoding, not as physics."
+    },
+    {
+      "type": "h2",
+      "text": "What to do with a shrinking calendar"
+    },
+    {
+      "type": "p",
+      "text": "You cannot opt out of thermodynamics. You can opt into encoding. Keep the days that matter slightly harder to summarise. Not by manufacturing constant spectacle — that becomes its own blur — but by allowing a few edges: a conversation with someone new, a walk without headphones, a problem you have not already solved. The point is not to live as a tourist. It is to give later-you some landmarks, so the map of the year has more than one road."
+    }
+  ],
+  "references": [
+    {
+      "title": "The time–emotion paradox",
+      "source": "Droit-Volet, S., & Gil, S. (2009). Philosophical Transactions of the Royal Society B."
+    },
+    {
+      "title": "Why life speeds up as you get older",
+      "source": "Draaisma, D. (2004). Cambridge University Press. (Accessible synthesis of retrospective duration.)"
+    }
+  ]
+}

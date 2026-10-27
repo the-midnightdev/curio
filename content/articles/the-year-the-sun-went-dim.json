@@ -1,0 +1,59 @@
+{
+  "slug": "the-year-the-sun-went-dim",
+  "title": "The year the sun went dim",
+  "dek": "In 1816, summer failed across parts of the world. A volcano had already spoken. Politics and art answered in human pitch.",
+  "category": "history",
+  "readingMinutes": 5,
+  "published": "2026-01-30",
+  "related": [
+    "rumours-that-moved-armies",
+    "why-time-seems-to-accelerate",
+    "why-maps-must-distort"
+  ],
+  "speakingPrompts": [
+    "Tell the story of 1816 as if weather were a political actor.",
+    "How should a society talk about a disaster whose cause is invisible from the ground?",
+    "Name one cultural work born from a bad year, and say what it understood that a harvest record could not."
+  ],
+  "blocks": [
+    {
+      "type": "p",
+      "text": "April 1815: Mount Tambora, in present-day Indonesia, erupts with a violence that belongs in the geological superlatives. The following year, 1816, becomes “the year without a summer” in parts of Europe and North America. Frost in June. Failed harvests. A sky that writers described as stained. People on the ground did not have a satellite diagram. They had hunger, price spikes, and sermons."
+    },
+    {
+      "type": "h2",
+      "text": "Climate as a historical character"
+    },
+    {
+      "type": "p",
+      "text": "Volcanic sulphate aerosols can veil sunlight and cool the surface. Tambora’s reach is a case study in how a local mountain becomes a hemispheric event. Historians still argue over how tightly to tie every riot, migration, and cholera trail to the eruption. That caution is healthy. So is refusing the opposite error: writing 1816 as if only kings and treaties moved the plot. Weather is not a backdrop. It is a constraint that rearranges what politics can afford."
+    },
+    {
+      "type": "p",
+      "text": "Culture kept a diary even when meteorology could not. A wet summer on Lake Geneva helped stall a holiday that produced Frankenstein. In New England, crop failures pushed some families west. None of these outcomes was inevitable. They were paths through a narrowed year. That is often how environmental history works: not a single cause, a squeezed menu of choices."
+    },
+    {
+      "type": "callout",
+      "title": "Why the story still matters",
+      "text": "We now live with global measurements and still struggle to feel a distant cause. Tambora is a parable about lag and invisibility: the mountain is far, the frost is near, and the explanation arrives late. Public language has to carry that gap without turning it into fatalism or conspiracy."
+    },
+    {
+      "type": "h2",
+      "text": "Reading a dim year"
+    },
+    {
+      "type": "p",
+      "text": "When you meet a historical “anomaly year,” ask three questions. What did people think was happening at the time? What do instruments and ice cores say now? Which institutions absorbed the shock — markets, churches, empires, neighbours — and which failed? The answers will not fit on a plaque. They will fit, just about, in a five-minute telling that leaves the weather on the stage."
+    }
+  ],
+  "references": [
+    {
+      "title": "Tambora: The Eruption That Changed the World",
+      "source": "Wood, G. D. (2014). Princeton University Press."
+    },
+    {
+      "title": "The Year Without Summer: 1816 and the Volcano That Darkened the World and Changed History",
+      "source": "Klingaman, W. K., & Klingaman, N. P. (2013). St. Martin’s Press."
+    }
+  ]
+}

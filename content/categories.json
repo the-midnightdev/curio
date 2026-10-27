@@ -1,0 +1,38 @@
+[
+  {
+    "slug": "psychology",
+    "name": "Psychology & Mind",
+    "kicker": "The inner weather",
+    "description": "How minds invent, edit, and insist — including memories that feel true and never happened."
+  },
+  {
+    "slug": "philosophy",
+    "name": "Philosophy",
+    "kicker": "Questions that stay",
+    "description": "Thought experiments and ordinary puzzles about identity, knowledge, and what we owe one another."
+  },
+  {
+    "slug": "science",
+    "name": "Science & Technology",
+    "kicker": "The measurable strange",
+    "description": "Time, placebos, perception — the lab findings that quietly rewrite daily life."
+  },
+  {
+    "slug": "geography",
+    "name": "Geography & Environment",
+    "kicker": "Place as an argument",
+    "description": "Maps, cities, and landscapes that shape what we think is possible."
+  },
+  {
+    "slug": "history",
+    "name": "History & Culture",
+    "kicker": "Yesterday, still talking",
+    "description": "Moments when weather, rumour, or a single decision bent the story we inherited."
+  },
+  {
+    "slug": "society",
+    "name": "Society",
+    "kicker": "Us, in formation",
+    "description": "Belonging, ritual, and the social shortcuts we barely notice using."
+  }
+]

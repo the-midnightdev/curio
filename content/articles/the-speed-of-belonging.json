@@ -1,0 +1,59 @@
+{
+  "slug": "the-speed-of-belonging",
+  "title": "The speed of belonging",
+  "dek": "Give people a trivial label and a little rivalry, and a we appears. The trick is almost embarrassingly fast.",
+  "category": "society",
+  "readingMinutes": 5,
+  "published": "2025-11-02",
+  "related": [
+    "why-rituals-still-work",
+    "the-spotlight-that-isnt-on-you",
+    "rumours-that-moved-armies"
+  ],
+  "speakingPrompts": [
+    "Describe a group you joined in under a day. What was the smallest shared badge?",
+    "How would you design a classroom activity that builds belonging without inventing an enemy?",
+    "When is fast belonging a gift, and when is it a trap?"
+  ],
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Henri Tajfel’s minimal-group experiments remain a cold splash of water. Strangers sorted by a coin toss or a preference for a painter will still favour “their” side in the allocation of points. They know the groups are made up. They still tilt. Belonging does not require a mythic past. It requires a line and a chance to stand on one side of it."
+    },
+    {
+      "type": "h2",
+      "text": "Why the mind is so eager"
+    },
+    {
+      "type": "p",
+      "text": "Categories reduce social uncertainty. Once you have a we, you can predict a little, borrow status, and outsource some of your self-definition. The same machinery that lets a choir form in an afternoon lets a comment section find a scapegoat. Speed is the feature. You do not have time, in evolutionary terms, to run a full background check on every coalition."
+    },
+    {
+      "type": "p",
+      "text": "Modern life exploits the feature constantly: shirts, slogans, schools, software fandoms. None of these are automatically sinister. A team needs a boundary or it is a crowd. The ethical question is what the boundary is for, and whether it needs an out-group to stay vivid. Rivalry is a cheap consolidator. Shared work is a slower one, and usually kinder."
+    },
+    {
+      "type": "callout",
+      "title": "A practical test",
+      "text": "If your group vanished, would you miss the people, the craft, or the feeling of being against someone? The answer is information about what you actually joined."
+    },
+    {
+      "type": "h2",
+      "text": "Slowing the reflex"
+    },
+    {
+      "type": "p",
+      "text": "You cannot uninstall coalitional thinking. You can notice the moment a label starts doing your reasoning for you. Pause before you allocate the points — praise, suspicion, the benefit of the doubt. Belonging will still happen at speed. Judgement does not have to."
+    }
+  ],
+  "references": [
+    {
+      "title": "Social identity and intergroup behaviour",
+      "source": "Tajfel, H. (1974). Social Science Information."
+    },
+    {
+      "title": "The Social Identity Theory of Intergroup Behavior",
+      "source": "Tajfel, H., & Turner, J. C. (1979). In Austin & Worchel (eds.), The Social Psychology of Intergroup Relations."
+    }
+  ]
+}
