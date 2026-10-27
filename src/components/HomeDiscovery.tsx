@@ -39,6 +39,17 @@ export function HomeDiscovery({ categories, topics, initialTopic }: { categories
 
   useEffect(() => () => { if (timerRef.current) window.clearTimeout(timerRef.current); }, []);
   useEffect(() => {
+    if (initialTopic) return;
+    const topicId = new URLSearchParams(window.location.search).get("topic");
+    const linkedTopic = topics.find((topic) => topic.id === topicId);
+    if (!linkedTopic) return;
+    const hydrationTimer = window.setTimeout(() => {
+      setDisplayed(linkedTopic);
+      setRevealed(true);
+    }, 0);
+    return () => window.clearTimeout(hydrationTimer);
+  }, [initialTopic, topics]);
+  useEffect(() => {
     if (!practising) return;
     const previousOverflow = document.body.style.overflow;
     document.body.style.overflow = "hidden";
