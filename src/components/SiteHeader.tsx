@@ -28,18 +28,36 @@ export function SiteHeader() {
             onClick={toggleTheme}
             aria-label={`Switch to ${theme === "dark" ? "light" : "dark"} mode`}
             title={`Switch to ${theme === "dark" ? "light" : "dark"} mode`}
-            className="grid h-11 w-11 place-items-center rounded-full bg-paper text-plum transition hover:bg-sage hover:text-blue-black"
+            className="grid h-9 w-9 shrink-0 place-items-center rounded-lg bg-transparent text-muted transition hover:bg-plum/5 hover:text-plum"
           >
-            {theme === "dark" ? <span aria-hidden className="text-lg">☀</span> : <span aria-hidden className="text-lg">◐</span>}
+            {theme === "dark" ? (
+              <svg viewBox="0 0 24 24" className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth="1.8" aria-hidden>
+                <circle cx="12" cy="12" r="3.5" />
+                <path d="M12 2.5v2M12 19.5v2M4.5 12h-2M21.5 12h-2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M18.7 5.3l-1.4 1.4M6.7 17.3l-1.4 1.4" strokeLinecap="round" />
+              </svg>
+            ) : (
+              <svg viewBox="0 0 24 24" className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth="1.8" aria-hidden>
+                <path d="M20 15.4A8 8 0 0 1 8.6 4a8 8 0 1 0 11.4 11.4Z" strokeLinejoin="round" />
+              </svg>
+            )}
           </button>
           <button
             type="button"
             onClick={toggle}
             aria-pressed={enabled}
             aria-label={`Turn sound ${enabled ? "off" : "on"}`}
-            className="min-h-11 rounded-full border border-border bg-white px-4 text-left text-xs font-semibold uppercase tracking-wide transition hover:border-coral-dark"
+            title={`Sound ${enabled ? "on" : "off"}`}
+            className={`grid h-9 w-9 shrink-0 place-items-center rounded-lg bg-transparent transition hover:bg-plum/5 ${enabled ? "text-cobalt" : "text-muted"}`}
           >
-            Sound {enabled ? "on" : "off"}
+            <svg viewBox="0 0 24 24" className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth="1.8" aria-hidden>
+              <path d="M5 9.5v5h3.2l4.3 3.5V6L8.2 9.5H5Z" strokeLinejoin="round" />
+              {enabled ? (
+                <>
+                  <path d="M15.5 9a4 4 0 0 1 0 6" strokeLinecap="round" />
+                  <path d="M18 6.5a7.5 7.5 0 0 1 0 11" strokeLinecap="round" />
+                </>
+              ) : <path d="m15.5 10 4 4m0-4-4 4" strokeLinecap="round" />}
+            </svg>
           </button>
         </nav>
       </div>

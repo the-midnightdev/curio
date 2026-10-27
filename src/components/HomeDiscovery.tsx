@@ -6,6 +6,7 @@ import { useSound } from "./SoundProvider";
 import { SpeakingSession } from "./SpeakingSession";
 
 type CategoryChoice = "surprise" | PracticeCategory["slug"];
+const CATEGORY_STORAGE_KEY = "curio-topic-category";
 
 export function HomeDiscovery({ categories, topics, initialTopic }: { categories: PracticeCategory[]; topics: PracticeTopic[]; initialTopic?: PracticeTopic }) {
   const { start, tick, settle } = useSound();
@@ -14,8 +15,17 @@ export function HomeDiscovery({ categories, topics, initialTopic }: { categories
   const [revealed, setRevealed] = useState(Boolean(initialTopic));
   const [discovering, setDiscovering] = useState(false);
   const [practising, setPractising] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [sessionKey, setSessionKey] = useState(0);
   const timerRef = useRef<number | null>(null);
+  const mobileMenuRef = useRef<HTMLDivElement | null>(null);
+  const categoryChoices = [{ slug: "surprise" as const, name: "All categories" }, ...categories];
+  const selectedCategoryName = categoryChoices.find((item) => item.slug === category)?.name ?? "All categories";
+  const chooseCategory = (choice: CategoryChoice) => {
+    setCategory(choice);
+    setMobileMenuOpen(false);
+    window.localStorage.setItem(CATEGORY_STORAGE_KEY, choice);
+  };
 
   const discover = useCallback(() => {
     if (discovering || topics.length === 0) return;
@@ -39,16 +49,37 @@ export function HomeDiscovery({ categories, topics, initialTopic }: { categories
 
   useEffect(() => () => { if (timerRef.current) window.clearTimeout(timerRef.current); }, []);
   useEffect(() => {
-    if (initialTopic) return;
+    if (!mobileMenuOpen) return;
+    const closeOutside = (event: PointerEvent) => {
+      if (!mobileMenuRef.current?.contains(event.target as Node)) setMobileMenuOpen(false);
+    };
+    const closeOnEscape = (event: KeyboardEvent) => {
+      if (event.key === "Escape") setMobileMenuOpen(false);
+    };
+    document.addEventListener("pointerdown", closeOutside);
+    document.addEventListener("keydown", closeOnEscape);
+    return () => {
+      document.removeEventListener("pointerdown", closeOutside);
+      document.removeEventListener("keydown", closeOnEscape);
+    };
+  }, [mobileMenuOpen]);
+  useEffect(() => {
     const topicId = new URLSearchParams(window.location.search).get("topic");
-    const linkedTopic = topics.find((topic) => topic.id === topicId);
-    if (!linkedTopic) return;
+    const linkedTopic = initialTopic ?? topics.find((topic) => topic.id === topicId);
+    const savedCategory = window.localStorage.getItem(CATEGORY_STORAGE_KEY);
+    const validSavedCategory = savedCategory === "surprise" || categories.some((item) => item.slug === savedCategory)
+      ? savedCategory as CategoryChoice
+      : "surprise";
     const hydrationTimer = window.setTimeout(() => {
-      setDisplayed(linkedTopic);
-      setRevealed(true);
+      setCategory(linkedTopic?.category ?? validSavedCategory);
+      if (linkedTopic) {
+        setDisplayed(linkedTopic);
+        setRevealed(true);
+        window.localStorage.setItem(CATEGORY_STORAGE_KEY, linkedTopic.category);
+      }
     }, 0);
     return () => window.clearTimeout(hydrationTimer);
-  }, [initialTopic, topics]);
+  }, [categories, initialTopic, topics]);
   useEffect(() => {
     if (!practising) return;
     const previousOverflow = document.body.style.overflow;
@@ -78,9 +109,58 @@ export function HomeDiscovery({ categories, topics, initialTopic }: { categories
     <section className="mx-auto mt-3 flex min-h-0 w-full max-w-5xl flex-1 flex-col" aria-labelledby="discovery-title">
       <fieldset className="category-palette mt-3 shrink-0">
         <legend className="sr-only">Choose a topic area</legend>
-        <div className="grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-5">
-            {[{ slug: "surprise" as const, name: "All categories" }, ...categories].map((item) => (
-              <button key={item.slug} type="button" aria-pressed={category === item.slug} disabled={discovering} onClick={() => setCategory(item.slug)} className={`group flex min-h-12 items-center justify-center rounded-xl px-3 py-2 text-center text-sm transition ${category === item.slug ? "font-semibold text-plum" : "text-muted hover:text-plum"} disabled:opacity-50`}>
+        <div ref={mobileMenuRef} className="relative lg:hidden">
+          <p id="mobile-topic-category-label" className="text-xs font-semibold uppercase tracking-[0.16em] text-muted">
+            Topic category
+          </p>
+          <button
+            type="button"
+            disabled={discovering}
+            aria-labelledby="mobile-topic-category-label mobile-topic-category-value"
+            aria-haspopup="listbox"
+            aria-expanded={mobileMenuOpen}
+            onClick={() => setMobileMenuOpen((open) => !open)}
+            className="relative mt-2 flex min-h-14 w-full items-center rounded-2xl border border-border bg-white py-3 pl-12 pr-12 text-left text-base font-semibold text-plum shadow-[0_10px_30px_rgba(16,22,47,0.06)] outline-none transition hover:border-cobalt focus-visible:border-cobalt focus-visible:ring-4 focus-visible:ring-cobalt/10 disabled:opacity-50"
+          >
+            <span className="pointer-events-none absolute inset-y-0 left-4 grid place-items-center text-accent-text" aria-hidden>
+              <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="1.8">
+                <rect x="3.5" y="3.5" width="6" height="6" rx="1.5" />
+                <rect x="14.5" y="3.5" width="6" height="6" rx="1.5" />
+                <rect x="3.5" y="14.5" width="6" height="6" rx="1.5" />
+                <rect x="14.5" y="14.5" width="6" height="6" rx="1.5" />
+              </svg>
+            </span>
+            <span id="mobile-topic-category-value">{selectedCategoryName}</span>
+            <span className="pointer-events-none absolute inset-y-0 right-4 grid place-items-center text-muted" aria-hidden>
+              <svg viewBox="0 0 20 20" className={`h-5 w-5 transition-transform ${mobileMenuOpen ? "rotate-180" : ""}`} fill="none" stroke="currentColor" strokeWidth="2">
+                <path d="m5 7.5 5 5 5-5" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+            </span>
+          </button>
+          {mobileMenuOpen ? (
+            <div role="listbox" aria-labelledby="mobile-topic-category-label" className="absolute inset-x-0 top-full z-30 mt-2 max-h-[min(22rem,52dvh)] overflow-y-auto rounded-2xl border border-border bg-white p-2 text-left shadow-[0_22px_60px_rgba(16,22,47,0.18)]">
+              {categoryChoices.map((item) => {
+                const selected = category === item.slug;
+                return (
+                  <button
+                    key={item.slug}
+                    type="button"
+                    role="option"
+                    aria-selected={selected}
+                    onClick={() => chooseCategory(item.slug)}
+                    className={`flex min-h-12 w-full items-center justify-between rounded-xl px-4 py-2.5 text-sm transition ${selected ? "bg-canvas font-semibold text-plum" : "text-muted hover:bg-canvas/70 hover:text-plum"}`}
+                  >
+                    <span>{item.name}</span>
+                    {selected ? <span className="grid h-6 w-6 place-items-center rounded-full bg-cobalt text-xs text-white" aria-hidden>✓</span> : null}
+                  </button>
+                );
+              })}
+            </div>
+          ) : null}
+        </div>
+        <div className="hidden grid-cols-5 gap-2 lg:grid">
+            {categoryChoices.map((item) => (
+              <button key={item.slug} type="button" aria-pressed={category === item.slug} disabled={discovering} onClick={() => chooseCategory(item.slug)} className={`group flex min-h-12 items-center justify-center rounded-xl px-3 py-2 text-center text-sm transition ${category === item.slug ? "font-semibold text-plum" : "text-muted hover:text-plum"} disabled:opacity-50`}>
                 <span>{item.name}</span>
               </button>
             ))}
